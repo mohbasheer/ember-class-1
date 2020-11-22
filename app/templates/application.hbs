@@ -1,0 +1,17 @@
+<h1>Application page</h1>
+
+{{!-- how to create link in ember --}}
+<div>
+    {{#link-to "home" }}home page {{/link-to}}
+</div>
+
+<br>
+
+{{!-- how to use ember nested route path in ember --}}
+<div>
+    {{#link-to "home.details" }}Details{{/link-to}}
+</div>
+
+
+{{!-- place holder to render nested routes --}}
+{{outlet}}

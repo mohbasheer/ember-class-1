@@ -1,0 +1,29 @@
+{{!-- example for triggering action and it's flow 
+      whenever we define the action, ember compiler 
+      will look for an action definition in the below order 
+      1) controller
+      2) route
+--}}
+<h2 {{action "touched"}}>Home</h2>
+
+{{!-- example for computed property --}}
+
+<div>{{firstName}}</div>
+<br>
+<div>{{lastName}}</div>
+
+{{input type="text" value=firstName}}
+
+<br>
+
+{{input type="text" value=lastName}}
+
+
+<br>
+
+<div>{{fullName}}</div>
+
+
+
+{{!-- place holder to render nested routes --}}
+{{outlet}}
