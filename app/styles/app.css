@@ -1,0 +1,8 @@
+.colum{
+    width: 420px;
+    display: inline-block;
+    background-color: lightblue;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+}

@@ -1,0 +1,9 @@
+<div>
+    {{#each model as |row|}}
+        <div>
+            <span class="colum">{{row.name}}</span>
+            <span class="colum">{{row.age}}</span>
+        </div>
+    {{/each}}
+    <button onclick={{action "addUser"}}>Add</button>
+</div>
